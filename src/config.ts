@@ -13,7 +13,7 @@ import type { ActivityTypes } from 'discord.js/typings/enums';
 
 setup(new URL('.env', srcFolder));
 
-export const OWNERS = ['268792781713965056'];
+export const OWNERS = ['978219738754875432'];
 
 function parsePresenceActivity(): ActivitiesOptions[] {
   const { CLIENT_PRESENCE_NAME } = process.env;
